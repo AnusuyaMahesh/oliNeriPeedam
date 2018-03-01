@@ -23,13 +23,36 @@
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="js/flexslider/flexslider.css">
 <link rel="stylesheet" href="css/basic-style.css">
+<link rel="stylesheet" href="css/fonts.css">
+y
 
 <!-- end CSS-->
     
 <!-- JS-->
 <script src="js/libs/modernizr-2.6.2.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <!-- end JS-->
+<script type="text/javascript">
+function toggle() {
+   alert("");
+  var ls = this.parentNode.getElementsByTagName('ul')[0],
+      styles, display;
 
+  if (ls) {
+    styles = window.getComputedStyle(ls);
+    display = styles.getPropertyValue('display');
+
+    ls.style.display = (display === 'none' ? 'block' : 'none');
+  }
+}
+
+
+var eles = document.querySelectorAll('.ele');
+
+Array.prototype.slice.call(eles).forEach(function (e) {
+  e.addEventListener('click', toggle);
+});
+</script>
 
 <!-- columns demo style. DELETE IT! -->
 <style type="text/css">
@@ -64,7 +87,7 @@ padding:20px 15px;
 		   <div class="row">	
         <div style="background-color:#FFF433;" >
 			<table ><tr><td>
-        	<img src="images/basic-pic1.jpg" /></td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td><h2 >
+        	<img src="images/aiyaa.jpg" /></td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td><h2 >
 			வள்ளலார் ஆதி(இ)னம்</br></h2><h3>(ஒளிநெறி பிரணவ பீடம்) </br></h3><h4>10/11, புதுத்தெரு, அம்பத்தூர் ஓ.டி சென்னை:600053</h4
 			>
 			<h5>நிறுவனர் &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -76,7 +99,11 @@ padding:20px 15px;
 			 <h5>
 			தொடர்பு :&nbsp;&nbsp;ஜோதி மு. பாலசுப்ரமணியன்  Mobile: 99529 70648 , Email :olineripeedam@gmail.com
 			 </h5>
-		 	</td>
+		 	</td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<!--	<td><div    class="container"><img  height="120" width="200" src="images/eew.gif" /></td>-->
+			 
+			  </div>
+			</tr>
 			</tr></table>
            <!-- <img src="images/Thiru Arutprakasa Vallalar - Jothi.jpg" />-->
            
@@ -132,13 +159,117 @@ padding:20px 15px;
 <!-- hero area (the grey one with a slider -->
     <section id="hero" class="clearfix">    
     <!-- responsive FlexSlider image slideshow -->
-    <div class="wrapper">
+    <div class="wrapper" >
        <div  > 
-        <div class="grid_12">
+		<div class="grid_3" style="border:1px solid #FFC300;">
+			<div class="css-treeview">
+	<ul>
+		<li><input type="checkbox" id="item-0" checked="checked" /><label for="item-0">திரு அருட்பா </label>
+			<ul>
+				<li><input type="checkbox" id="item-0-0"   /><label for="item-0-0" >முதல் திருமுறை </label>
+					<ul>
+						<li><a href="./">01. திருவடிப் புகழ்ச்சி</a></li>
+						<li><a href="./">02.விண்ணப்பக் கலிவெண்பா </a></li>
+						<li><a href="./">03.நெஞ்சறிவுறுத்தல் </a></li>
+						<li><a href="./">04.சிவநேச வெண்பா  </a></li>
+						<li><a href="./">05.மகாதேவ மாலை  </a></li>
+						<li><a href="./">06.திருவருண் முறையீடு  </a></li>
+						<li><a href="./">07.வடிவுடை மாணிக்க மாலை  </a></li>
+						<li><a href="./">08.இங்கித மாலை  </a></li>
+						 
+						
+					</ul>
+				</li>
+				
+				<li><input type="checkbox" id="item-0-1" /><label for="item-0-1">இரண்டாம் திருமுறை </label>
+					<ul>
+						 
+						<li><a href="./">01.புண்ணிய விளக்கம் </a></li>
+						<li><a href="./">02.அருள் நாம விளக்கம்  </a></li>
+						<li><a href="./">03.ஸ்ரீ சிவசண்முக நாம ஸங்கீர்த்தன லகிரி  </a></li>
+						<li><a href="./">04.நமச்சிவாய ஸங்கீர்த்தன லகிரி   </a></li>
+						<li><a href="./">05.நற்றுணை விளக்கம்   </a></li>
+						<li><a href="./">06.திருவருள் வழக்க விளக்கம்   </a></li>
+						<li><a href="./">07.சிவபுண்ணியத் தேற்றம்   </a></li>
+						<li><a href="./">08.முத்தி உபாயம்   </a></li>
+						<li><a href="./">09.அவலத் தழுங்கல்  </a></li>
+						<li><a href="./">10.பழமொழிமேல் வைத்துப் பரிவுகூர்தல் </a></li>
+						<li><a href="./">11.அபராதத் தாற்றாமை  </a></li>
+						 
+						
+					</ul>
+				</li>
+				
+				<li><input type="checkbox" id="item-0-2"   /><label for="item-0-2" >மூன்றாம் திருமுறை</label>
+					<ul>
+						<li><a href="./">01. திரு உலாப் பேறு </a></li>
+						
+					</ul>
+				</li>
+				
+				<li><input type="checkbox" id="item-0-3"   /><label for="item-0-3" >நான்காம் திருமுறை </label>
+					<ul>
+						<li><a href="./">01. அன்பு மாலை </a></li>
+						
+					</ul>
+				</li>
+				
+				<li><input type="checkbox" id="item-0-4"   /><label for="item-0-4" >ஐந்தாம் திருமுறை </label>
+					<ul>
+						<li><a href="./">01. சித்தி விநாயகர் பதிகம்  </a></li>
+						
+					</ul>
+				</li>
+				
+				<li><input type="checkbox" id="item-0-5"   /><label for="item-0-5" >ஆறாம் திருமுறை </label>
+					<ul>
+						<li><a href="./">01. பரசிவ வணக்கம் </a></li>
+						
+					</ul>
+				</li>
+				 
+				
+				 	</ul>
+					</li>
+				
+</div>
+		 
+         <!--  <ul class="tree">
+    <li style="font-size:10px;font-weight:bold;
+} ">திரு அருட்பா 
+     <ul>
+      <li>முதல் திருமுறை </li>
+      <li>இரண்டாம் திருமுறை
+       <ul>
+        <li>புண்ணிய விளக்கம் </li>
+        <li class="last">அருள் நாம விளக்கம் </li>
+       </ul>
+      </li>
+      <li class="last">மூன்றாம் திருமுறை</li>
+     </ul>
+    </li>
+    <!--<li class="last">Plants
+     <ul>
+      <li>Flowers
+       <ul>
+        <li>Rose</li>
+        <li class="last">Tulip</li>
+       </ul>
+      </li>
+      <li class="last">Trees</li>
+     </ul>
+    </li>-->
+   </ul> 
+		</div>
+        <div class="grid_7">
 		<h2>உபதேசங்கள்</h2>
             <h4 align="center">அருட்பெருஞ்ஜோதி அருட்பெருஞ்ஜோதி </br>தனிப்பெருங்கருணை அருட்பெருஞ்ஜோதி</h4>
-            <p   align="center-left">ஜீவகாருண்ய ஒழுக்கமே நல்லொழுக்கம். இவ்வுலகில் அனைத்து உயிர்களையும் நேசித்த நேசித்து கொண்டிருக்கிற மனித உயிர்களுக்கு சமர்ப்பணம்
-            </p>
+            <p   align="center-left">அருளைப் பெறுவதற்குச் சீவகாருணியமே வழியாதலால், ஞான வழி என்பதும் சன்மார்க்கம் என்பதும் ஜீவகாருண்ய ஒழுக்கமே நல்லொழுக்கம். இவ்வுலகில் அனைத்து உயிர்களையும் நேசித்த நேசித்து கொண்டிருக்கிற மனித உயிர்களுக்கு சமர்ப்பணம். </br></br>
+ 
+அருளைப் பெறுவதற்குச் சீவகாருணியமே வழியாதலால், ஞான வழி என்பதும் சன்மார்க்கம் என்பதும் சீவகாருணிய ஒழுக்கம் என்றும், அஞ்ஞான வழி என்பதும் துன்மார்க்கம் என்பதும் சீவ காருணிய ஒழுக்கமில்லாமை என்றும் அறியப்படும். சீவகாருணியம் விளங்கும்போது அறிவும் அன்பும் உடனாக நின்று விளங்கும்; அதனால் உபகாரசத்தி விளங்கும்; அந்த உபகாரசத்தியால் எல்லா நன்மைகளுந் தோன்றும். சீவகாருணியம் மறையும்போது அறிவும் அன்பும் உடனாக மறையும்; அதனால் உபகாரசத்தி மறையும்; உபகாரசத்தி மறையவே எல்லாத் தீமைகளுந் தோன்றும். ஆகலின் புண்ணிய மென்பது சீவகாருணியமொன்றே என்றும், பாவமென்பது சீவகாருணிய மில்லாமையொன்றே என்றும் அறியப்படும்.</br></br>
+
+சீவகாருணிய ஒழுக்கத்தினால் வரும் விளக்கமே கடவுள் விளக்கமென்றும், சீவகாருணிய ஒழுக்கத்தினால் வரும் இன்பமே கடவுள் இன்பமென்றும், இவ்விளக்கத்தையும் இன்பத்தையும் பலகால்கண்டு அனுபவித்துப் பூர்த்தியடைந்த சாத்தியர்களே சீவன் முத்தரென்றும், அவர்களே கடவுளை அறிவால் அறிந்து கடவுள்மயம் ஆவார்கள் என்றும் சத்தியமாக அறிய வேண்டும்.            </p>
+
          <!--   <p><a href="#" class="buttonlink">CALL TO ACTION</a> <a href="#" class="buttonlink">ONE MORE</a></p>-->
         </div>
        <!-- <div class="grid_5 rightfloat">
@@ -165,12 +296,21 @@ padding:20px 15px;
         <!--      <!--</div><!-- end grid_7 -->
         </div><!-- end row -->
        </div><!-- end wrapper -->
+	   
+	  
     </section><!-- end hero area -->
 
 
-
-
-
+<section id="content"  align="center">
+        		 <h4 >Maha Mandiram</h4>
+		
+				 <audio controls > 
+		<!--		<audio controls >-->
+				<source src="Maha_Mandira.mp3" type="audio/mpeg">
+				Your browser does not support the audio element.
+				</audio>
+				 
+</section>
 <!-- main content area -->   
 <!--<div id="main" class="wrapper">-->
     
